@@ -1,0 +1,62 @@
+
+<div ng-include="'pages/menu.html'"></div>
+<h1 class="heading"> <span>Cake</span> </h1>
+              <div class="pt-40">
+
+            </div >
+              <div class="pt-0" class="row" ng-repeat=" data in bakerList | filter: {category:'cake'} |filter:txtSearch | orderBy:field:reverse">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
+
+                  <div class="p-product">
+                    <div class="p-product__thumbnail">
+                      <div class="p-badge">
+                        <span>{{data.promotion*100}}%</span>
+                      </div>
+                      <a class="p-product__overlay" href="#"></a>
+                      <img src="{{data.img}}" alt="">
+                      <ul class="p-product__action">
+                        <li><a  data-tooltip="{{data.infor}}"><i class="p-icon"></i></a></li>
+                        <li><a data-tooltip="Add to Store" ng-click=""><i class="p-icon"></i></a></li>
+                        <li><a href="./Store.html" data-tooltip="Cart"><i class="p-icon"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="p-product__content">
+                      <a class="p-product__title" href="">{{data.name}}</a>
+                      <div class="p-product__category">
+                        <a class="p-product__category" href="{{data.category}}.html">{{data.category}}</a>
+                      </div>
+                      <div class="br-wrapper br-theme-fontawesome-stars">
+                        <div class="br-widget">
+                        <a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a>
+                        <a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a>
+                        <a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a>
+                        <a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a>
+                        <a href="#" data-rating-value="5" data-rating-text="5"></a>
+                        <div class="br-current-rating">
+
+                        </div>
+                      </div>
+                    </div>
+                        <p class="p-product__price">
+                          <del>${{data.price}}</del>
+                          ${{data.price-data.price * data.promotion}}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                    
+                    
+                    
+                    
+                    
+              </div>
+                  <div class="p-pagination">
+                    <ul class="pagination">
+                      <li><a href="#"><</a></li>
+                      <li class="active"><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">></a></li>
+                    </ul>
+                  </div>
