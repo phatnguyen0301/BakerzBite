@@ -66,6 +66,7 @@
 
     { "category": "cookies", "name": "Chocolate-Covered Peanut Butter", "price": 2.4, 
     "description":"COMING SOON", 
+<<<<<<< HEAD
     "img": "photo/cookiescoming.jpg", "promotion": 0.2, "value":0},
 
     {"category":"cake", "name":"Red sugar flower", "price": 4, "promotion": 0.1,"img":"photo/cake-1.jpeg", "infor":"Red sugar flower","value":1 },
@@ -87,6 +88,16 @@
     "description":"A double shot of espresso with steamed milk and a small layer of foam.", 
     "img": "photo/drink3.jpg", "promotion": 0.2, "value":0}
 
+=======
+    "img": "photo/cookiescoming.jpg", "promotion": 0, "value":0},
+
+    {"category":"cake", "name":"Red sugar flower", "price": 4, "promotion": 0.1,"img":"photo/cake-1.jpeg", "infor":"test 1","value":1 },
+    {"category":"cake", "name":"Cupcake Queen", "price": 4, "promotion": 0.2,"img":"photo/cake-2.jpeg", "infor":"......","value":1 },
+    {"category":"cake", "name":"Cupcake Glory", "price": 4, "promotion": 0.3,"img":"photo/cake-3.jpeg", "infor":"......" ,"value":0},
+    {"category":"cake", "name":"Sweet Cakes", "price": 4, "promotion": 0.4,"img":"photo/cake-4.jpeg", "infor":"......" ,"value":0},
+    {"category":"cake", "name":"Anytime Cakes", "price": 4, "promotion": 0.5,"img":"photo/cake-5.jpeg", "infor":"......","value":1 },
+    {"category":"cake", "name":"Flower Cakes", "price": 4, "promotion": 0.6,"img":"photo/cake-6.jpeg", "infor":"......","value":0 }
+>>>>>>> 45a8bb91761456de0cfe36b1e0b1d1d392810dad
 ]
 
 

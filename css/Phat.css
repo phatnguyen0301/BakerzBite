@@ -26,7 +26,10 @@ img {
   max-width: 100%;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 45a8bb91761456de0cfe36b1e0b1d1d392810dad
 iframe {
   border: 0;
   max-width: 100%;
@@ -542,6 +545,7 @@ ul, ol {
 .br-theme-fontawesome-stars .br-widget {
   margin-bottom: 10px;
   height: auto;
+<<<<<<< HEAD
   color: #ffb727
 }
 
@@ -555,6 +559,62 @@ ul, ol {
 
 .p-product .p-product__price del {
   font-size: 18px;
+=======
+}
+
+.br-theme-fontawesome-stars .br-widget > a {
+  font-size: 12px !important;
+  color: #ffb727;
+}
+
+.br-theme-fontawesome-stars .br-widget {
+  height: 28px;
+  white-space: nowrap;
+}
+.br-theme-fontawesome-stars .br-widget a {
+  font: normal normal normal 20px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  margin-right: 2px;
+}
+.br-theme-fontawesome-stars .br-widget a:after {
+  content: '\e838';
+  color: #d2d2d2;
+}
+.br-theme-fontawesome-stars .br-widget a.br-active:after {
+  color: #EDB867;
+}
+.br-theme-fontawesome-stars .br-widget a.br-selected:after {
+  color: #EDB867;
+}
+.br-theme-fontawesome-stars .br-widget .br-current-rating {
+  display: none;
+}
+.br-theme-fontawesome-stars .br-readonly a {
+  cursor: default;
+}
+@media print {
+  .br-theme-fontawesome-stars .br-widget a:after {
+    content: '\f006';
+    color: black;
+  }
+  .br-theme-fontawesome-stars .br-widget a.br-active:after,
+  .br-theme-fontawesome-stars .br-widget a.br-selected:after {
+    content: '\e838';
+    color: black;
+  }
+}
+
+.p-product .p-product__price {
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+.p-product .p-product__price del {
+  font-size: 12px;
+>>>>>>> 45a8bb91761456de0cfe36b1e0b1d1d392810dad
   color: #777;
 }
 
@@ -909,12 +969,16 @@ ul, ol {
   -ms-border-radius: 0 40px 40px 0;
   border-radius: 0 40px 40px 0;
 }
+<<<<<<< HEAD
 .p-section-store {
   background-color: #fff;
 }
 .table-responsive{
   padding:auto
 }
+=======
+
+>>>>>>> 45a8bb91761456de0cfe36b1e0b1d1d392810dad
 .p-cart-listing__remove {
   position: relative;
   display: inline-block;
